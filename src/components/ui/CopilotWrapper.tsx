@@ -7,7 +7,7 @@ import React from "react";
 const CopilotWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
     <CopilotKit publicApiKey="your-public-api-key">
-      <div className="width-screen h-screen flex">
+      <div className="width-screen h-screen flex flex-row">
         {children}
         <CopilotSidebar />
       </div>
