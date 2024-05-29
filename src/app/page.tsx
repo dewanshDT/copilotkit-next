@@ -8,14 +8,14 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/alert-dialog"
-import { Button } from "@/components/ui/button"
+} from "@/components/ui/alert-dialog";
+import { Button } from "@/components/ui/button";
 
-import "@copilotkit/react-ui/styles.css"
+import "@copilotkit/react-ui/styles.css";
 
 function Page() {
   return (
-    <div className="width-screen h-screen flex flex-col items-center justify-center">
+    <div className="width-full h-full flex flex-col items-center justify-center">
       <AlertDialog>
         <AlertDialogTrigger asChild>
           <Button variant="outline">Show Dialog</Button>
@@ -35,7 +35,7 @@ function Page() {
         </AlertDialogContent>
       </AlertDialog>
     </div>
-  )
+  );
 }
 
-export default Page
+export default Page;

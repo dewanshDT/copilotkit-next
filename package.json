@@ -12,7 +12,7 @@
     "@copilotkit/backend": "^0.36.0",
     "@copilotkit/react-core": "^0.36.0",
     "@copilotkit/react-textarea": "^0.36.0",
-    "@copilotkit/react-ui": "^0.36.0",
+    "@copilotkit/react-ui": "0.37.0-mme-remove-css-reset.0",
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
